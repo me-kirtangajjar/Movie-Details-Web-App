@@ -1,5 +1,7 @@
 # Movie Details Web App
 
+![App Demo](./app-demo.gif)
+
 ## Overview
 
 Movie Details Web App is a Node.js application that allows users to search for movie information using the OMDB API. Users can enter a movie name, and the app will display detailed information about the movie, including its poster, rating, cast, plot, and more.
@@ -26,7 +28,7 @@ Movie Details Web App is a Node.js application that allows users to search for m
 Before you begin, ensure you have met the following requirements:
 
 - You have installed Node.js (version 12.0 or later)
-- You have an OMDB API key (you can get one at [https://www.omdbapi.com](https://www.omdbapi.com))
+- You have an OMDB API key (you can get one at [https://www.omdbapi.com/apikey.aspx](https://www.omdbapi.com/apikey.aspx))
 
 ## Installation
 
@@ -50,7 +52,8 @@ Before you begin, ensure you have met the following requirements:
 
 4. Create a `.env` file in the root directory and add the following:
    ```
-   PORT = 3000
+   PORT = 30
+   00
    OMDB_API_KEY = your_omdb_api_key_here
    ```
    Replace `your_omdb_api_key_here` with your actual OMDB API key.
